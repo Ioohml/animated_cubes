@@ -1,2 +1,2 @@
-# animated_cubes
+# Cubos
 Animação de cubos.
