@@ -1,0 +1,58 @@
+.green > .cube > .cube__face:nth-child(1) {
+    background: #29cf26;
+}
+
+.green > .cube > .cube__face:nth-child(3) {
+    background: #29ee26;
+}
+
+.green > .cube > .cube__face:nth-child(5) {
+    background: #29b026;
+}
+
+.green > .cube {
+    position: fixed;
+    z-index: 1;
+    left: 50.22%;
+    top: 78%;
+}
+
+.green > #cube16 {
+    animation: cube16-growth 2s infinite;
+}
+
+.green > #cube17 {
+    animation: cube17-growth 2s infinite;
+}
+
+.green > #cube18 {
+    animation: cube18-growth 2s infinite;
+}
+
+.green > #cube19 {
+    animation: cube19-growth 2s infinite;
+}
+
+@keyframes cube16-growth {
+    0%   {top: 78%;}
+    50%  {top: 65%;}
+    100% {top: 78%;}
+}
+
+@keyframes cube17-growth {
+    0%   {top: 78%;}
+    50%  {top: 45%;}
+    100% {top: 78%;}
+}
+
+@keyframes cube18-growth {
+    0%   {top: 78%;}
+    50%  {top: 35%;}
+    100% {top: 78%;}
+}
+
+@keyframes cube19-growth {
+    0%   {top: 78%;}
+    50%  {top: 11.5%;}
+    100% {top: 78%;}
+}

@@ -1,0 +1,28 @@
+.yellow > .cube {
+    z-index: 4;
+    position: fixed;
+    left: 44%;
+    top: 85%;
+}
+
+.yellow > .cube > .cube__face:nth-child(1) {
+    background: #ffce28;
+}
+
+.yellow > .cube >  .cube__face:nth-child(3) {
+    background: #f9dc0e;
+}
+
+.yellow > .cube >  .cube__face:nth-child(5) {
+    background: #efc428;
+}
+
+.yellow >  #cube4 {
+    animation: cube4-growth 2s infinite;
+}
+
+@keyframes cube4-growth {
+    0%   {top: 85%;}
+    50%  {top: 65%;}
+    100% {top: 85%;}
+}

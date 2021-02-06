@@ -1,0 +1,38 @@
+.blue > .cube > .cube__face:nth-child(1) {
+    background: #4247c6;
+}
+
+.blue > .cube > .cube__face:nth-child(3) {
+    background: #4247ec;
+}
+
+.blue > .cube > .cube__face:nth-child(5) {
+    background: #323299;
+}
+
+.blue > .cube {
+    z-index: 3;
+    position: fixed;
+    left: 38.35%;
+    top: 81.35%;
+}
+
+.blue > #cube6 {
+    animation: cube6-growth 2s infinite;
+}
+
+.blue > #cube7 {
+    animation: cube7-growth 2s infinite;
+}
+
+@keyframes cube6-growth {
+    0%   {top: 81.35%;}
+    50%  {top: 60%;}
+    100% {top: 81.35%;}
+}
+
+@keyframes cube7-growth {
+    0%   {top: 81.35%;}
+    50%  {top: 40%;}
+    100% {top: 81.35%;}
+}

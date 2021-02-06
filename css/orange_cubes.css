@@ -1,0 +1,48 @@
+.orange > .cube > .cube__face:nth-child(1) {
+    background: #ffa200;
+}
+
+.orange > .cube > .cube__face:nth-child(3) {
+    background: #ffb400;
+}
+
+.orange > .cube > .cube__face:nth-child(5) {
+    background: #ff8d00;
+}
+
+.orange > .cube {
+    z-index: 2;
+    position: fixed;
+    left: 44.30%;
+    top: 78.65%;
+}
+
+.orange > #cube12 {
+    animation: cube12-growth 2s infinite;
+}
+
+.orange > #cube13 {
+    animation: cube13-growth 2s infinite;
+}
+
+.orange > #cube14 {
+    animation: cube14-growth 2s infinite;
+}
+
+@keyframes cube12-growth {
+    0%   {top: 78.65%;}
+    50%  {top: 58%;}
+    100% {top: 78.65%;}
+}
+
+@keyframes cube13-growth {
+    0%   {top: 78.65%;}
+    50%  {top: 40%;}
+    100% {top: 78.65%;}
+}
+
+@keyframes cube14-growth {
+    0%   {top: 78.65%;}
+    50%  {top: 20%;}
+    100% {top: 78.65%;}
+}

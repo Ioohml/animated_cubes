@@ -1,0 +1,29 @@
+.purple > .cube  {
+    z-index: 3;
+    position: fixed;
+    left: 50%;
+    top: 82.25%;    
+}
+
+.purple > .cube > .cube__face:nth-child(1){
+    background: #ac00b0;
+}
+
+.purple > .cube > .cube__face:nth-child(3){
+    background: #e100e4;
+}
+
+.purple > .cube > .cube__face:nth-child(5){
+    background: #840082;
+}
+
+.purple > #cube2 {
+    animation: cube2-growth 2s infinite;
+}
+  
+@keyframes cube2-growth {
+    0%   {top: 82.25%;}
+    50%  {top: 70%;}
+    100% {top: 82.25%;}
+}
+  
